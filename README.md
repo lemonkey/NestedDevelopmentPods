@@ -14,8 +14,11 @@ After `pod install` is first run on the Main project, the following can be seen:
    Installing Pod1 (1.0)
    
    Installing Pod2 (1.0)
+   
    Generating Pods project
+   
    Integrating client project
+   
 
    [!] Please close any current Xcode sessions and use `Main.xcworkspace` for this project from now on.
    Sending stats
