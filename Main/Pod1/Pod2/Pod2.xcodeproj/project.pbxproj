@@ -10,6 +10,8 @@
 		398DA41E1C0281AF00E01E85 /* Pod2.h in Headers */ = {isa = PBXBuildFile; fileRef = 398DA41D1C0281AF00E01E85 /* Pod2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		398DA4251C0281AF00E01E85 /* Pod2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398DA41A1C0281AF00E01E85 /* Pod2.framework */; };
 		398DA42A1C0281AF00E01E85 /* Pod2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 398DA4291C0281AF00E01E85 /* Pod2Tests.m */; };
+		398DA4361C028A1B00E01E85 /* ObjSamplePod2.h in Headers */ = {isa = PBXBuildFile; fileRef = 398DA4341C028A1B00E01E85 /* ObjSamplePod2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		398DA4371C028A1B00E01E85 /* ObjSamplePod2.m in Sources */ = {isa = PBXBuildFile; fileRef = 398DA4351C028A1B00E01E85 /* ObjSamplePod2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		398DA4241C0281AF00E01E85 /* Pod2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pod2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		398DA4291C0281AF00E01E85 /* Pod2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pod2Tests.m; sourceTree = "<group>"; };
 		398DA42B1C0281AF00E01E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		398DA4341C028A1B00E01E85 /* ObjSamplePod2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjSamplePod2.h; sourceTree = "<group>"; };
+		398DA4351C028A1B00E01E85 /* ObjSamplePod2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjSamplePod2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				398DA41D1C0281AF00E01E85 /* Pod2.h */,
 				398DA41F1C0281AF00E01E85 /* Info.plist */,
+				398DA4341C028A1B00E01E85 /* ObjSamplePod2.h */,
+				398DA4351C028A1B00E01E85 /* ObjSamplePod2.m */,
 			);
 			path = Pod2;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398DA4361C028A1B00E01E85 /* ObjSamplePod2.h in Headers */,
 				398DA41E1C0281AF00E01E85 /* Pod2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398DA4371C028A1B00E01E85 /* ObjSamplePod2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +382,7 @@
 				398DA4301C0281AF00E01E85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		398DA4311C0281AF00E01E85 /* Build configuration list for PBXNativeTarget "Pod2Tests" */ = {
 			isa = XCConfigurationList;
@@ -382,6 +391,7 @@
 				398DA4331C0281AF00E01E85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

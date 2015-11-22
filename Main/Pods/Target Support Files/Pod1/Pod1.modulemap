@@ -1,0 +1,6 @@
+framework module Pod1 {
+  umbrella header "Pod1-umbrella.h"
+
+  export *
+  module * { export * }
+}

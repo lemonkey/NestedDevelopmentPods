@@ -1,0 +1,33 @@
+{
+  "name": "Pod1",
+  "version": "1.0",
+  "summary": "Pod1",
+  "description": "See https://github.com/CocoaPods/CocoaPods/issues/4570",
+  "homepage": "https://github.com/lemonkey/NestedDevelopmentPods",
+  "license": "MIT",
+  "authors": {
+    "lemonkey": "contact@aribraginsky.com"
+  },
+  "platforms": {
+    "ios": "8.0",
+    "watchos": "2.0",
+    "tvos": "9.0"
+  },
+  "requires_arc": true,
+  "dependencies": {
+    "Pod2": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Pod1",
+      "subspecs": [
+        {
+          "name": "Source",
+          "source_files": "Pod1/**/*.{h,m,swift}"
+        }
+      ]
+    }
+  ]
+}

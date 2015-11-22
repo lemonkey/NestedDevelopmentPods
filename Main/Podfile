@@ -1,5 +1,7 @@
 pod 'Pod2', :path => './Pod1/Pod2'
 
+source 'https://github.com/CocoaPods/Specs.git'
+
 platform :ios, '8.0'
 use_frameworks!
 
