@@ -1,11 +1,18 @@
 After `pod install` is first run on the Main project, the following can be seen:
 
+
    Updating local specs repositories
+   
    Analyzing dependencies
+   
    Fetching podspec for `Pod1` from `./Pod1`
+   
    Fetching podspec for `Pod2` from `./Pod1/Pod2`
+   
    Downloading dependencies
+   
    Installing Pod1 (1.0)
+   
    Installing Pod2 (1.0)
    Generating Pods project
    Integrating client project
