@@ -1,0 +1,17 @@
+platform :ios, '8.0'
+use_frameworks!
+
+workspace 'Pod1.xcworkspace'
+xcodeproj 'Pod1.xcodeproj'
+
+def import_pods
+	pod 'Pod2', :path => './Pod2'
+end
+
+target :'Pod1' do
+	import_pods
+end
+
+target :'Pod1Tests' do
+	import_pods
+end
