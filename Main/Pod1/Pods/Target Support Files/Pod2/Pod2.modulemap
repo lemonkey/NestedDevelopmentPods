@@ -1,6 +1,0 @@
-framework module Pod2 {
-  umbrella header "Pod2-umbrella.h"
-
-  export *
-  module * { export * }
-}
